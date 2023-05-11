@@ -10,7 +10,7 @@
 
 ## Basic Principles
 
-My language of choice is javacript, when building the SDK I follow some of the design guide in building an SDK with javascript which can find the link here, also design with the below points in mind.
+My language of choice is javacript, when building the SDK I follow some of the design guide in building an SDK with javascript which can find the link [here](https://sdk-design.js.org/), also design with the below points in mind.
 
 - Simple configuration.
 - Top level method accessability
