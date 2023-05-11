@@ -1,0 +1,31 @@
+{
+  "name": "ahmad-lotr-sdk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ignore-path .gitignore",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json)\"",
+    "format": "npm run prettier  --write",
+    "check-format": "npm run prettier  --list-different",
+    "test": "mocha **/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.8",
+    "sinon": "^15.0.4",
+    "sinon-chai": "^3.7.0"
+  }
+}
